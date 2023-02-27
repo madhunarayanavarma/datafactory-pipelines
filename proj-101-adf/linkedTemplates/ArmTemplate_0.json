@@ -21,7 +21,7 @@
 	},
 	"resources": [
 		{
-			"name": "[concat(parameters('factoryName'), '/pipeline1')]",
+			"name": "[concat(parameters('factoryName'), '/Logic app')]",
 			"type": "Microsoft.DataFactory/factories/pipelines",
 			"apiVersion": "2018-06-01",
 			"properties": {
@@ -71,7 +71,8 @@
 					"elapsedTimeMetric": {},
 					"cancelAfter": {}
 				},
-				"annotations": []
+				"annotations": [],
+				"lastPublishTime": "2023-02-26T09:45:46Z"
 			},
 			"dependsOn": []
 		},
@@ -256,7 +257,7 @@
 					"cancelAfter": {}
 				},
 				"annotations": [],
-				"lastPublishTime": "2023-02-26T03:24:44Z"
+				"lastPublishTime": "2023-02-26T08:58:13Z"
 			},
 			"dependsOn": [
 				"[concat(variables('factoryId'), '/datasets/adlsdataset')]"
